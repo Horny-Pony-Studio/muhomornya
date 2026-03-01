@@ -1,26 +1,111 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ============================================
+   1. BRAND DESIGN TOKENS (Tailwind v4 @theme)
+   ============================================ */
+@theme {
+  /* --- Breakpoints (override defaults) --- */
+  --breakpoint-mobile: 480px;
+  --breakpoint-tablet: 750px;
+  --breakpoint-desktop: 990px;
+  --breakpoint-wide: 1200px;
+
+  /* --- Brand Colors --- */
+  --color-brand-red: #7D0015;
+  --color-brand-crimson: #BA1934;
+  --color-brand-tan: #D4B59D;
+  --color-brand-peach: #ECD6C6;
+  --color-brand-black: #000000;
+  --color-brand-dark: #121212;
+  --color-brand-gray-light: #F3F3F3;
+  --color-brand-gray-blue: #242833;
+  --color-brand-white: #FFFFFF;
+
+  /* --- Layout --- */
+  --max-width-page: 1400px;
+
+  /* --- Spacing --- */
+  --spacing-grid-desktop: 8px;
+  --spacing-grid-mobile: 4px;
+
+  /* --- Border Radius --- */
+  --radius-btn: 0px;
+  --radius-pill: 40px;
+  --radius-badge: 4rem;
 }
 
+/* Font families reference CSS variables set by next/font */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-body: var(--font-assistant);
+  --font-heading: var(--font-montserrat);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ============================================
+   2. COLOR SCHEMES (CSS Custom Properties)
+   ============================================ */
+:root {
+  /* Default scheme (white background) */
+  --scheme-bg: 255 255 255;
+  --scheme-fg: 18 18 18;
+  --scheme-btn: 18 18 18;
+  --scheme-btn-text: 255 255 255;
+  --scheme-accent: 125 0 21;
+  --scheme-accent-text: 255 255 255;
 }
 
+.scheme-header,
+.scheme-footer {
+  --scheme-bg: 0 0 0;
+  --scheme-fg: 212 181 157;
+  --scheme-btn: 186 25 52;
+  --scheme-btn-text: 255 255 255;
+}
+
+.scheme-announcement {
+  --scheme-bg: 125 0 21;
+  --scheme-fg: 212 181 157;
+  --scheme-btn: 212 181 157;
+  --scheme-btn-text: 125 0 21;
+}
+
+.scheme-alt {
+  --scheme-bg: 243 243 243;
+  --scheme-fg: 18 18 18;
+  --scheme-btn: 18 18 18;
+  --scheme-btn-text: 243 243 243;
+}
+
+.scheme-inverted {
+  --scheme-bg: 36 40 51;
+  --scheme-fg: 255 255 255;
+  --scheme-btn: 255 255 255;
+  --scheme-btn-text: 0 0 0;
+}
+
+.scheme-accent {
+  --scheme-bg: 18 18 18;
+  --scheme-fg: 255 255 255;
+  --scheme-btn: 255 255 255;
+  --scheme-btn-text: 18 18 18;
+}
+
+/* ============================================
+   3. BASE STYLES
+   ============================================ */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body), sans-serif;
+  background-color: rgb(var(--scheme-bg));
+  color: rgb(var(--scheme-fg));
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), sans-serif;
+  font-weight: 600;
 }
