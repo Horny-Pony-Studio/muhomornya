@@ -12,14 +12,14 @@ import { Analytics } from '@/components/seo/Analytics';
 import '../globals.css';
 
 const assistant = Assistant({
-  subsets: ['latin', 'latin-ext', 'cyrillic'],
+  subsets: ['latin', 'latin-ext'],
   weight: ['400', '700'],
   variable: '--font-assistant',
   display: 'swap',
 });
 
 const montserrat = Montserrat({
-  subsets: ['latin', 'latin-ext', 'cyrillic'],
+  subsets: ['latin', 'latin-ext', 'cyrillic', 'cyrillic-ext'],
   weight: ['600'],
   variable: '--font-montserrat',
   display: 'swap',

@@ -42,6 +42,7 @@ export function Analytics() {
         `}
       </Script>
       <noscript>
+        {/* eslint-disable-next-line @next/next/no-img-element -- FB Pixel 1x1 tracking pixel */}
         <img
           height="1"
           width="1"
