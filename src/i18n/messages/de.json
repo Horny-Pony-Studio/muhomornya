@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "title": "Muhomornya Shop",
+    "titleTemplate": "{title} | Muhomornya Shop",
+    "description": "Getrocknete Fliegenpilze kaufen. Mikrodosierung, Igel-Stachelbart, Cordyceps. Weltweiter Versand."
+  },
+  "nav": {
+    "home": "Startseite",
+    "catalog": "Katalog",
+    "wholesale": "Großhandel",
+    "blog": "Blog",
+    "instructions": "Gebrauchsanweisung",
+    "useful_info": "Nützliche Infos",
+    "faq": "FAQ",
+    "contacts": "Kontakt",
+    "cart": "Warenkorb",
+    "search": "Suche"
+  },
+  "common": {
+    "currency": "₴",
+    "locale_name": "Deutsch",
+    "loading": "Laden...",
+    "error": "Etwas ist schiefgelaufen",
+    "retry": "Erneut versuchen",
+    "close": "Schließen",
+    "back": "Zurück"
+  },
+  "product": {
+    "add_to_cart": "In den Warenkorb",
+    "buy_now": "Jetzt kaufen",
+    "in_stock": "Auf Lager",
+    "out_of_stock": "Nicht auf Lager",
+    "composition": "Zusammensetzung",
+    "storage": "Lagerbedingungen",
+    "shelf_life": "Haltbarkeit",
+    "contraindications": "Gegenanzeigen",
+    "disclaimer": "NAHRUNGSERGÄNZUNGSMITTEL IST KEIN ARZNEIMITTEL!"
+  },
+  "cart": {
+    "title": "Warenkorb",
+    "empty": "Ihr Warenkorb ist leer",
+    "checkout": "Zur Kasse",
+    "continue_shopping": "Weiter einkaufen",
+    "subtotal": "Zwischensumme"
+  },
+  "footer": {
+    "copyright": "Muhomornya Shop — Getrocknete Fliegenpilze aus der Ukraine kaufen."
+  }
+}
