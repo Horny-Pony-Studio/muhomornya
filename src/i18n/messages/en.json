@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "title": "Muhomornya Store",
+    "titleTemplate": "{title} | Muhomornya Store",
+    "description": "Buy Amanita Muscaria in Ukraine. Microdosing, Lion's Mane, Cordyceps. Worldwide shipping."
+  },
+  "nav": {
+    "home": "Home",
+    "catalog": "Catalog",
+    "wholesale": "Wholesale",
+    "blog": "Blog",
+    "instructions": "Usage Instructions",
+    "useful_info": "Useful Info",
+    "faq": "FAQ",
+    "contacts": "Contacts",
+    "cart": "Cart",
+    "search": "Search"
+  },
+  "common": {
+    "currency": "₴",
+    "locale_name": "English",
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try again",
+    "close": "Close",
+    "back": "Back"
+  },
+  "product": {
+    "add_to_cart": "Add to cart",
+    "buy_now": "Buy now",
+    "in_stock": "In stock",
+    "out_of_stock": "Out of stock",
+    "composition": "Composition",
+    "storage": "Storage conditions",
+    "shelf_life": "Shelf life",
+    "contraindications": "Contraindications",
+    "disclaimer": "DIETARY SUPPLEMENT IS NOT A MEDICINE!"
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty",
+    "checkout": "Checkout",
+    "continue_shopping": "Continue shopping",
+    "subtotal": "Subtotal"
+  },
+  "footer": {
+    "copyright": "Muhomornya Store — Buy dried Amanita Muscaria in Ukraine."
+  }
+}
